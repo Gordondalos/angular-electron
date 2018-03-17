@@ -18,7 +18,7 @@ function createWindow () {
   }))
 
   // Откроет DevTools.
-  win.webContents.openDevTools()
+  win.webContents.openDevTools();
 
   // Возникает, когда окно будет закрыто.
   win.on('closed', () => {
